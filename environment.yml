@@ -1,0 +1,12 @@
+
+name: CancerDetection
+
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - pip
+  - jupyterlab>=4.2,<5
+  - ipykernel>=6.29,<8
+  - pip:
+      - -r requirements.txt

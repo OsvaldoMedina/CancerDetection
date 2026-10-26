@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+htmlcov/
+.ruff_cache/
+.mypy_cache/
+.tox/
+build/
+dist/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Conda and virtual environments
+.conda/
+.venv/
+venv/
+env/
+ENV/
+envs/
+anaconda3/
+miniconda3/
+
+# Editors and operating systems
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials and settings
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.aws/
+.codex/
+.agents/
+
+# Temporary files, logs, archives and downloads
+*.log
+*.tmp
+*.bak
+*.zip
+*.7z
+*.rar
+*.tar
+*.tar.gz
+*.tgz
+*.whl
+downloads/
+tmp/
+temp/
+
+# Regenerable data and model artifacts
+data/raw/*.csv
+data/processed/*.csv
+models/*.joblib
+models/*.pkl
+models/*.pickle
+models/*.h5
+models/*.hdf5
+models/*.pt
+models/*.pth
+models/*.onnx
+data/**/*.parquet
+data/**/*.npy
+data/**/*.npz
+reports/*.json
+reports/*.csv
+reports/figures/*.png
+reports/figures/*.svg
+reports/figures/*.pdf
+
+# Small original artifacts required to run the app after cloning
+!data/processed/train.csv
+!data/processed/test.csv
+!models/best_model.joblib
+!reports/metrics.json
+!reports/model_comparison.csv
+
+# Old notebook backups; keep the main educational notebook
+notebooks/*_old.ipynb
+
+# Keep empty project directories
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!models/.gitkeep
+!reports/figures/.gitkeep

@@ -1,0 +1,43 @@
+{
+  "best_cv_roc_auc": 0.9953560371517026,
+  "best_parameters": {
+    "model__C": 1.0
+  },
+  "dataset": "Breast Cancer Wisconsin Diagnostic",
+  "features": 30,
+  "positive_class": "malignant",
+  "random_state": 42,
+  "rows": 569,
+  "selected_model": "Logistic regression",
+  "selection_metric": "five-fold cross-validated ROC AUC on training data",
+  "source": "scikit-learn load_breast_cancer",
+  "target_mapping": {
+    "benign": 0,
+    "malignant": 1
+  },
+  "test_metrics": {
+    "accuracy": 0.9736842105263158,
+    "average_precision": 0.9931011971184138,
+    "brier_score": 0.02220787999297159,
+    "confusion_matrix": [
+      [
+        71,
+        1
+      ],
+      [
+        2,
+        40
+      ]
+    ],
+    "f1": 0.963855421686747,
+    "false_negatives": 2,
+    "false_positives": 1,
+    "precision": 0.975609756097561,
+    "roc_auc": 0.9953703703703703,
+    "sensitivity_recall": 0.9523809523809523,
+    "specificity": 0.9861111111111112,
+    "true_negatives": 71,
+    "true_positives": 40
+  },
+  "test_size": 0.2
+}
